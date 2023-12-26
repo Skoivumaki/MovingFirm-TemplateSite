@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Website Template</title>
+  <meta name="keywords" content="Example Website, Template">
+  <meta name="description" content="Example Website, Template">
+  <meta name="author" content="Sakari Koivumäki">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!--Fill meta information for search engine visibility-->
+  <meta name="theme-color" content="#3767f6">
+  <meta property="og:title" content="Website Template">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:site_name" content="Website Template | Lorem Ipsum">
+  <meta name="og:title" content="Website Template">
+  <meta name="og:description" content="Website Template | Lorem Ipsum">
+  <meta property="og:locale:alternate" content="se_SE">
+  <meta property="og:image" content="your_hosturl/images/favicon.png">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', '');
+</script>
+
+<body class="">
+  <div class="container">
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"> <img src="/images/logo3.png"></li>
+          <li class="navbar-item" href="/"><a class="navbar-link" href="/">Back to home</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="/contact2">Second Lang 🇸🇪</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="docs-section" id="forms">
+      <h6 class="docs-header">Contact Form</h6>
+      <div class="">
+        <form method="post" action="index2nd">
+          <div class="row">
+            <div class="six columns">
+              <label for="fname">First Name:</label><br>
+              <input type="text" id="fname" name="fname" placeholder="Matti" required><br>
+            </div>
+            <div class="six columns">
+              <label for="lname">Second Name:</label><br>
+              <input type="text" id="lname" name="lname" placeholder="Meikäläinen" required><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns">
+              <label for="spost">Email:</label><br>
+              <input type="text" id="spost" name="spost" placeholder="esimerkki@gmail.com" required><br>
+            </div>
+            <div class="six columns">
+              <label for="puh">Phone:</label><br>
+              <input type="text" id="puh" name="puh" placeholder="0405005005" required><br>
+            </div>
+          </div>
+          <div class="row">
+            <label for="viesti">Message:</label><br>
+            <textarea class="u-full-width" name="message" id="viesti" placeholder="Viesti, lisätietoa ym."></textarea>
+          </div>
+          <input class="button-primary" type="submit" value="Send">
+        </form>
+      </div>
+    </div>
+    <p>© Website Template Location somewhere</p>
+  </div>
+</body>
+
+</html>

@@ -5,14 +5,14 @@ Instead heres a barebones template of it: [(See Live on Render)](https://movingf
 
 Uses [Skeleton](https://github.com/dhg/Skeleton/) for simple mobile-friendly layout.
 
-#Features
+# Features
 -Made for 2 languages
 -Frontpage with Contact information, gallery etc
 -Contact page
 -Contact form with mailing possibility using Nodemailer
 -Slideshow page header with changing pictures CSS animated
 
-##Start with:
+## Start with:
 ```
 npm run start
 or just

@@ -1,4 +1,4 @@
-# MovingFirm-TemplateSite
+# MovingFirm Template Website
 Website originally intended for a business but was scrapped.
 
 Instead heres a barebones template of it: [(See Live on Render)](https://movingfirm-templatesite.onrender.com/).
